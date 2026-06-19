@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "swift",
+				"request": "launch",
+				"args": [],
+				"cwd": "${workspaceFolder:Aero}",
+				"name": "Debug Aero (Aero)",
+				"target": "Aero",
+				"configuration": "debug",
+				"preLaunchTask": "swift: Build Debug Aero (Aero)"
+			},
+			{
+				"type": "swift",
+				"request": "launch",
+				"args": [],
+				"cwd": "${workspaceFolder:Aero}",
+				"name": "Release Aero (Aero)",
+				"target": "Aero",
+				"configuration": "release",
+				"preLaunchTask": "swift: Build Release Aero (Aero)"
+			}
+		]
+	}
+}
