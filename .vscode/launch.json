@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Aero}",
+            "name": "Debug Aero",
+            "target": "Aero",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug Aero"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Aero}",
+            "name": "Release Aero",
+            "target": "Aero",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release Aero"
+        }
+    ]
+}
